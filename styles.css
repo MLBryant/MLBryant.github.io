@@ -1,3 +1,90 @@
-* {
-    background-color: aqua;
+body {
+    margin: 0%;
+    height: 100%;
+    color: rgb(202, 202, 202);
+}
+
+header {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+}
+
+#name {
+    font-size: 48px;
+    margin: 0%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 0.5%;
+}
+
+#linksdiv {
+    margin-left: 55%;
+    margin-bottom: 1%;
+    font-size: 24px;
+}
+
+.headerlink {
+    color: rgb(202, 202, 202);
+}
+
+section {
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    margin: 0;
+}
+
+.sectioncontent {
+    width: 70%;
+    height: 55%;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 30%;
+    top: 28%;
+    background-color: rgba(7, 7, 7, 0.4);
+    z-index: 1;
+}
+
+#home {
+    background: url(./images/lsu-blacknwhite-background.jpg);
+    background-size: cover;
+}
+
+#homecontent {
+    width: 40%;
+    position: absolute;
+    left: 35%;
+    top: 28%;
+    z-index: 2;
+}
+
+#profilepic {
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    top: 12%;
+    z-index: 2;
+}
+
+#homeskillz {
+    width: 40%;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 2;
+}
+
+#projects {
+    background-color: rgb(48, 48, 48);
+}
+
+#contact {
+    background-color: rgb(90, 90, 90);
 }
