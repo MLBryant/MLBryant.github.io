@@ -110,15 +110,6 @@ section {
     margin-left: 3%;
 }
 
-.contactlink {
-    width: 10vw;
-    position: relative;
-    left: 36%;
-    top: -20%;
-    margin-left: 4%;
-    z-index: 3;
-}
-
 .hometitle {
     font-size: 1.7vw;
 }
@@ -174,6 +165,15 @@ section {
 #contact {
     background: url(./images/letter-background-img.jpg);
     background-size: cover;
+}
+
+.contactlink {
+    width: 10vw;
+    position: relative;
+    left: 36%;
+    top: -30%;
+    margin-left: 4%;
+    z-index: 3;
 }
 
 .sectionheader {
