@@ -163,6 +163,7 @@ section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 1.4vw;
 }
 
 .demolink {
