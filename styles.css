@@ -52,6 +52,15 @@ section {
     z-index: 1;
 }
 
+.sectionheader {
+    font-size: 2.5vw;
+    width: 30%;
+    position: relative;
+    left: 15%;
+    top: -28%;
+    z-index: 3;
+}
+
 #home {
     background: url(./images/lsu-blacknwhite-background.jpg);
     background-size: cover;
@@ -140,6 +149,10 @@ section {
     z-index: 3;
 }
 
+.projecttitle {
+    font-size: 2vw;
+}
+
 .projectinfo {
     font-size: 1.1vw;
     margin-left: 3%;
@@ -159,7 +172,7 @@ section {
 #magicgathered {
     position: relative;
     left: 36%;
-    top: -30%;
+    top: -43%;
 }
 
 #contact {
@@ -173,13 +186,5 @@ section {
     left: 36%;
     top: -30%;
     margin-left: 4%;
-    z-index: 3;
-}
-
-.sectionheader {
-    width: 30%;
-    position: relative;
-    left: 15%;
-    top: -28%;
     z-index: 3;
 }
