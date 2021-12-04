@@ -133,7 +133,7 @@ section {
 }
 
 .projectdiv {
-    width: 30%;
+    width: clamp(180px, 30%, 500px);
     display: flex;
     flex-direction: column;
     justify-content: center;
