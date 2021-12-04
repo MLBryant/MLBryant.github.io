@@ -75,7 +75,7 @@ section {
 }
 
 #profilepic {
-    width: 30%;
+    width: clamp(50px, 30%, 300px);
     position: absolute;
     left: 5%;
     top: 12%;
