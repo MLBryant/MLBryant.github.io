@@ -17,7 +17,7 @@ header {
 }
 
 #name {
-    font-size: 3.5vw;
+    font-size: clamp(20px, 3.5vw, 40px);
     margin: 0%;
     margin-top: 2%;
     margin-left: 5%;
@@ -27,7 +27,7 @@ header {
 #linksdiv {
     margin-left: 55%;
     margin-bottom: 1%;
-    font-size: 1.5vw;
+    font-size: clamp(12px, 1.5vw, 25px);
 }
 
 .headerlink {
@@ -67,7 +67,7 @@ section {
 }
 
 #homecontent {
-    width: clamp(180px, 40%, 500px);
+    width: clamp(180px, 40vw, 500px);
     position: absolute;
     left: 10%;
     top: 4%;
@@ -75,7 +75,7 @@ section {
 }
 
 #profilepic {
-    width: clamp(150px, 30%, 600px);
+    width: clamp(150px, 30vw, 600px);
     position: absolute;
     left: 5%;
     top: 12%;
@@ -112,11 +112,11 @@ section {
 }
 
 .hometitle {
-    font-size: 1.7vw;
+    font-size: clamp(15px, 1.7vw, 30px);
 }
 
 .hometext {
-    font-size: clamp(10px, 1.2vw, 12px);
+    font-size: clamp(10px, 1.2vw, 20px);
 }
 
 #projects {
@@ -125,11 +125,11 @@ section {
 }
 
 .projectimg {
-    width: 20vw;
+    width: clamp(140px, 20vw, 280px);
 }
 
 .projectgithublogo {
-    width: 2vw;
+    width: clamp(14px, 2vw, 28px);
 }
 
 .projectdiv {
@@ -142,11 +142,11 @@ section {
 }
 
 .projecttitle {
-    font-size: 2vw;
+    font-size: clamp(14px, 2vw, 28px);
 }
 
 .projectinfo {
-    font-size: 1.1vw;
+    font-size: clamp(8px, 1.1vw, 16px);
     margin-left: 3%;
 }
 
@@ -160,7 +160,7 @@ section {
 
 .demolink {
     color: rgb(202, 202, 202);
-    font-size: 1.4vw;
+    font-size: clamp(10px, 1.4vw, 20px);
 }
 
 #magicgathered {
@@ -175,7 +175,7 @@ section {
 }
 
 .contactlink {
-    width: 10vw;
+    width: clamp(70px, 10vw, 140px);
     position: relative;
     left: 10%;
     top: 25%;
