@@ -53,8 +53,8 @@ section {
 }
 
 .sectiontitle {
-    font-size: 2.5vw;
-    width: 30%;
+    font-size: clamp(18px, 2.5vw, 36px);
+    width: clamp(200px, 30vw, 400px);
     position: relative;
     left: 15%;
     top: -38%;
