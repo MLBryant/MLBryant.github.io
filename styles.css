@@ -117,6 +117,7 @@ section {
 
 .hometext {
     font-size: clamp(10px, 1.2vw, 20px);
+    margin-left: 3%;
 }
 
 #projects {
