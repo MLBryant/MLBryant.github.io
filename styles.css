@@ -146,7 +146,7 @@ section {
 }
 
 .projectinfo {
-    font-size: clamp(8px, 1.1vw, 16px);
+    font-size: clamp(9px, 1.1vw, 18px);
     margin-left: 3%;
 }
 
@@ -197,6 +197,6 @@ section {
     }
 
     #linksdiv {
-        margin-left: 30%;
+        margin-left: 20%;
     }
 }
