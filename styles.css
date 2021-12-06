@@ -187,4 +187,16 @@ section {
     #home {
         background-position: center;
     }
+
+    #projects {
+        background-position: center;
+    }
+
+    #contact {
+        background-position: center;
+    }
+
+    #linksdiv {
+        margin-left: 40%;
+    }
 }
