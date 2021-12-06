@@ -53,7 +53,7 @@ section {
 }
 
 .sectiontitle {
-    font-size: clamp(18px, 2.5vw, 36px);
+    font-size: clamp(20px, 2.5vw, 36px);
     width: clamp(200px, 30vw, 400px);
     position: relative;
     left: 15%;
@@ -67,7 +67,7 @@ section {
 }
 
 #homecontent {
-    width: clamp(180px, 40vw, 500px);
+    width: clamp(200px, 40vw, 500px);
     position: absolute;
     left: 10%;
     top: 4%;
@@ -112,11 +112,11 @@ section {
 }
 
 .hometitle {
-    font-size: clamp(15px, 1.7vw, 30px);
+    font-size: clamp(18px, 1.7vw, 30px);
 }
 
 .hometext {
-    font-size: clamp(10px, 1.2vw, 20px);
+    font-size: clamp(12px, 1.2vw, 20px);
     margin-left: 3%;
 }
 
@@ -143,11 +143,11 @@ section {
 }
 
 .projecttitle {
-    font-size: clamp(14px, 2vw, 28px);
+    font-size: clamp(16px, 2vw, 28px);
 }
 
 .projectinfo {
-    font-size: clamp(9px, 1.1vw, 18px);
+    font-size: clamp(12px, 1.1vw, 18px);
     margin-left: 3%;
 }
 
@@ -161,7 +161,7 @@ section {
 
 .demolink {
     color: rgb(202, 202, 202);
-    font-size: clamp(10px, 1.4vw, 20px);
+    font-size: clamp(12px, 1.4vw, 20px);
 }
 
 #magicgathered {
@@ -176,7 +176,7 @@ section {
 }
 
 .contactlink {
-    width: clamp(70px, 10vw, 140px);
+    width: clamp(90px, 10vw, 140px);
     position: relative;
     left: 10%;
     top: 25%;
